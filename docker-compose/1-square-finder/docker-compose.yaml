@@ -1,0 +1,7 @@
+version: "3"
+services:
+  squares:
+    image: kardockdock/squaretest
+    container_name: squares-container
+    environment:
+      - NUMBER=33

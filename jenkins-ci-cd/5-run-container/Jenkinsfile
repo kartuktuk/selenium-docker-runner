@@ -1,0 +1,44 @@
+pipeline{
+
+    agent any
+
+    environment {
+        NUMBER = 3
+    }
+
+    stages{
+
+        stage('stage-1'){
+            steps{
+                
+                sh "docker run -e NUMBER=${NUMBER} kardockdock/squaretest"
+
+            }
+        }
+
+        stage('stage-2'){
+            environment {
+                NUMBER = 6
+            }
+            steps{
+                sh "docker run -e NUMBER=${NUMBER} kardockdock/squaretest"
+
+            }            
+        }  
+
+        stage('stage-3'){
+            steps{
+                sh "docker run -e NUMBER=${NUMBER} kardockdock/squaretest"
+
+            }            
+        }                
+
+    }
+
+    post {
+        always {
+            sh "docker system prune -f"      
+        }
+    }
+
+}

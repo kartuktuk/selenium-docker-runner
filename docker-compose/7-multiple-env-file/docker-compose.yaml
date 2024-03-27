@@ -1,0 +1,12 @@
+# vinsdocker/sel-app:v1 (nginx application listening on port 80)
+# vinsdocker/sel-app:v1
+# vinsdocker/sel-app:v1
+
+
+version: "3"
+services:
+  using-multiple-env-file:
+    image: vinsdocker/sel-app:${VERSION}
+    ports:
+      - ${PORT}:80
+

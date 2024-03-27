@@ -1,0 +1,19 @@
+# /a/b/c
+
+version: "3"
+services:
+  nginx:
+    image: nginx
+    container_name: webserver-nginx
+  alpine:
+    image: alpine
+    container_name: alpine-instance
+    entrypoint: "wget http://nginx"
+    depends_on:
+      - nginx
+    working_dir: /usr/share/map
+    volumes:
+      - ./mapped-dir:/usr/share/map
+
+
+

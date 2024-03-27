@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-25T21:03:08 GMT" name="flight-reservation" finished-at="2024-03-25T21:07:19 GMT" duration-ms="250701">
+    <groups>
+    </groups>
+    <test started-at="2024-03-25T21:03:09 GMT" name="passengers-count-2" finished-at="2024-03-25T21:06:36 GMT" duration-ms="207447">
+      <class name="com.kardockdock.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@68f1b17f]" started-at="2024-03-25T21:03:09 GMT" name="setDriver" finished-at="2024-03-25T21:04:58 GMT" duration-ms="109476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@327bcebd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@68f1b17f]" started-at="2024-03-25T21:04:58 GMT" name="setParameters" finished-at="2024-03-25T21:05:05 GMT" depends-on-methods="com.kardockdock.tests.AbstractTest.setDriver" duration-ms="6381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flight-reservation/passenger-2.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@68f1b17f]" started-at="2024-03-25T21:05:05 GMT" name="userRegistrationTest" finished-at="2024-03-25T21:05:58 GMT" duration-ms="53107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@68f1b17f]" started-at="2024-03-25T21:05:58 GMT" name="registrationConfirmationTest" finished-at="2024-03-25T21:06:06 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="8478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightsSearchTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@68f1b17f]" started-at="2024-03-25T21:06:06 GMT" name="flightsSearchTest" finished-at="2024-03-25T21:06:13 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="6582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@68f1b17f]" started-at="2024-03-25T21:06:13 GMT" name="flightsSelectionTest" finished-at="2024-03-25T21:06:18 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.flightsSearchTest" duration-ms="4582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@68f1b17f]" started-at="2024-03-25T21:06:18 GMT" name="flightReservationConfirmationTest" finished-at="2024-03-25T21:06:20 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.flightsSelectionTest" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@68f1b17f]" started-at="2024-03-25T21:06:20 GMT" name="quitDriver" finished-at="2024-03-25T21:06:36 GMT" duration-ms="16648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.kardockdock.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passengers-count-2 -->
+    <test started-at="2024-03-25T21:03:09 GMT" name="passengers-count-3" finished-at="2024-03-25T21:06:36 GMT" duration-ms="207403">
+      <class name="com.kardockdock.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@57ad2aa7]" started-at="2024-03-25T21:03:09 GMT" name="setDriver" finished-at="2024-03-25T21:04:57 GMT" duration-ms="108256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c4980d3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@57ad2aa7]" started-at="2024-03-25T21:04:57 GMT" name="setParameters" finished-at="2024-03-25T21:05:05 GMT" depends-on-methods="com.kardockdock.tests.AbstractTest.setDriver" duration-ms="7553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flight-reservation/passenger-3.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@57ad2aa7]" started-at="2024-03-25T21:05:05 GMT" name="userRegistrationTest" finished-at="2024-03-25T21:06:00 GMT" duration-ms="55475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@57ad2aa7]" started-at="2024-03-25T21:06:00 GMT" name="registrationConfirmationTest" finished-at="2024-03-25T21:06:06 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="5271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightsSearchTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@57ad2aa7]" started-at="2024-03-25T21:06:06 GMT" name="flightsSearchTest" finished-at="2024-03-25T21:06:13 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="7596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@57ad2aa7]" started-at="2024-03-25T21:06:13 GMT" name="flightsSelectionTest" finished-at="2024-03-25T21:06:17 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.flightsSearchTest" duration-ms="3994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@57ad2aa7]" started-at="2024-03-25T21:06:17 GMT" name="flightReservationConfirmationTest" finished-at="2024-03-25T21:06:19 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.flightsSelectionTest" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@57ad2aa7]" started-at="2024-03-25T21:06:19 GMT" name="quitDriver" finished-at="2024-03-25T21:06:36 GMT" duration-ms="16964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.kardockdock.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passengers-count-3 -->
+    <test started-at="2024-03-25T21:03:08 GMT" name="passengers-count-1" finished-at="2024-03-25T21:06:37 GMT" duration-ms="209176">
+      <class name="com.kardockdock.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@420a85c4]" started-at="2024-03-25T21:03:09 GMT" name="setDriver" finished-at="2024-03-25T21:04:55 GMT" duration-ms="106496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65b104b9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@420a85c4]" started-at="2024-03-25T21:04:55 GMT" name="setParameters" finished-at="2024-03-25T21:05:05 GMT" depends-on-methods="com.kardockdock.tests.AbstractTest.setDriver" duration-ms="9235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flight-reservation/passenger-1.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@420a85c4]" started-at="2024-03-25T21:05:05 GMT" name="userRegistrationTest" finished-at="2024-03-25T21:05:57 GMT" duration-ms="52145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@420a85c4]" started-at="2024-03-25T21:05:57 GMT" name="registrationConfirmationTest" finished-at="2024-03-25T21:06:03 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="6015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightsSearchTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@420a85c4]" started-at="2024-03-25T21:06:03 GMT" name="flightsSearchTest" finished-at="2024-03-25T21:06:12 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="8462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@420a85c4]" started-at="2024-03-25T21:06:12 GMT" name="flightsSelectionTest" finished-at="2024-03-25T21:06:16 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.flightsSearchTest" duration-ms="4086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@420a85c4]" started-at="2024-03-25T21:06:16 GMT" name="flightReservationConfirmationTest" finished-at="2024-03-25T21:06:19 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.flightsSelectionTest" duration-ms="3544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@420a85c4]" started-at="2024-03-25T21:06:19 GMT" name="quitDriver" finished-at="2024-03-25T21:06:37 GMT" duration-ms="18188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.kardockdock.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passengers-count-1 -->
+    <test started-at="2024-03-25T21:06:37 GMT" name="passengers-count-4" finished-at="2024-03-25T21:07:19 GMT" duration-ms="42326">
+      <class name="com.kardockdock.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@398dada8]" started-at="2024-03-25T21:03:08 GMT" name="setupConfig" finished-at="2024-03-25T21:03:08 GMT" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@398dada8]" started-at="2024-03-25T21:06:37 GMT" name="setDriver" finished-at="2024-03-25T21:07:02 GMT" duration-ms="24908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@19c65cdc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@398dada8]" started-at="2024-03-25T21:07:02 GMT" name="setParameters" finished-at="2024-03-25T21:07:02 GMT" depends-on-methods="com.kardockdock.tests.AbstractTest.setDriver" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flight-reservation/passenger-1.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@398dada8]" started-at="2024-03-25T21:07:02 GMT" name="userRegistrationTest" finished-at="2024-03-25T21:07:10 GMT" duration-ms="8298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@398dada8]" started-at="2024-03-25T21:07:10 GMT" name="registrationConfirmationTest" finished-at="2024-03-25T21:07:12 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="1709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightsSearchTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@398dada8]" started-at="2024-03-25T21:07:12 GMT" name="flightsSearchTest" finished-at="2024-03-25T21:07:14 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="2472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@398dada8]" started-at="2024-03-25T21:07:14 GMT" name="flightsSelectionTest" finished-at="2024-03-25T21:07:16 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.flightsSearchTest" duration-ms="1866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@398dada8]" started-at="2024-03-25T21:07:16 GMT" name="flightReservationConfirmationTest" finished-at="2024-03-25T21:07:17 GMT" depends-on-methods="com.kardockdock.tests.flightreservation.FlightReservationTest.flightsSelectionTest" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.kardockdock.tests.flightreservation.FlightReservationTest@398dada8]" started-at="2024-03-25T21:07:17 GMT" name="quitDriver" finished-at="2024-03-25T21:07:19 GMT" duration-ms="2150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.kardockdock.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passengers-count-4 -->
+  </suite> <!-- flight-reservation -->
+</testng-results>

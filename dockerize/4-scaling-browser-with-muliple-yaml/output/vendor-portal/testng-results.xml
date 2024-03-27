@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-25T21:03:09 GMT" name="vendor-portal" finished-at="2024-03-25T21:06:37 GMT" duration-ms="207633">
+    <groups>
+    </groups>
+    <test started-at="2024-03-25T21:03:09 GMT" name="user-sam" finished-at="2024-03-25T21:06:35 GMT" duration-ms="205825">
+      <class name="com.kardockdock.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@2fba3fc4]" started-at="2024-03-25T21:03:09 GMT" name="setDriver" finished-at="2024-03-25T21:05:03 GMT" duration-ms="114052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c7ba306]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@2fba3fc4]" started-at="2024-03-25T21:05:03 GMT" name="setPageObjects" finished-at="2024-03-25T21:05:08 GMT" depends-on-methods="com.kardockdock.tests.AbstractTest.setDriver" duration-ms="5307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/sam.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@2fba3fc4]" started-at="2024-03-25T21:05:09 GMT" name="loginTest" finished-at="2024-03-25T21:05:45 GMT" duration-ms="36950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@2fba3fc4]" started-at="2024-03-25T21:05:46 GMT" name="dashboardTest" finished-at="2024-03-25T21:06:06 GMT" depends-on-methods="com.kardockdock.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="20500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@2fba3fc4]" started-at="2024-03-25T21:06:06 GMT" name="logoutTest" finished-at="2024-03-25T21:06:18 GMT" depends-on-methods="com.kardockdock.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="11767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@2fba3fc4]" started-at="2024-03-25T21:06:18 GMT" name="quitDriver" finished-at="2024-03-25T21:06:35 GMT" duration-ms="16518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.kardockdock.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-sam -->
+    <test started-at="2024-03-25T21:03:09 GMT" name="user-john" finished-at="2024-03-25T21:06:36 GMT" duration-ms="207141">
+      <class name="com.kardockdock.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@68f1b17f]" started-at="2024-03-25T21:03:08 GMT" name="setupConfig" finished-at="2024-03-25T21:03:09 GMT" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@68f1b17f]" started-at="2024-03-25T21:03:09 GMT" name="setDriver" finished-at="2024-03-25T21:05:03 GMT" duration-ms="113999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@39ac0c0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@68f1b17f]" started-at="2024-03-25T21:05:03 GMT" name="setPageObjects" finished-at="2024-03-25T21:05:08 GMT" depends-on-methods="com.kardockdock.tests.AbstractTest.setDriver" duration-ms="5358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/john.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@68f1b17f]" started-at="2024-03-25T21:05:09 GMT" name="loginTest" finished-at="2024-03-25T21:05:56 GMT" duration-ms="47087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@68f1b17f]" started-at="2024-03-25T21:05:56 GMT" name="dashboardTest" finished-at="2024-03-25T21:06:10 GMT" depends-on-methods="com.kardockdock.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="14778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@68f1b17f]" started-at="2024-03-25T21:06:10 GMT" name="logoutTest" finished-at="2024-03-25T21:06:20 GMT" depends-on-methods="com.kardockdock.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="9469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@68f1b17f]" started-at="2024-03-25T21:06:20 GMT" name="quitDriver" finished-at="2024-03-25T21:06:36 GMT" duration-ms="16243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.kardockdock.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-john -->
+    <test started-at="2024-03-25T21:03:09 GMT" name="user-mike" finished-at="2024-03-25T21:06:37 GMT" duration-ms="207633">
+      <class name="com.kardockdock.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@14fa86ae]" started-at="2024-03-25T21:03:09 GMT" name="setDriver" finished-at="2024-03-25T21:05:03 GMT" duration-ms="114273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ff8d125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@14fa86ae]" started-at="2024-03-25T21:05:03 GMT" name="setPageObjects" finished-at="2024-03-25T21:05:08 GMT" depends-on-methods="com.kardockdock.tests.AbstractTest.setDriver" duration-ms="5075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/mike.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@14fa86ae]" started-at="2024-03-25T21:05:09 GMT" name="loginTest" finished-at="2024-03-25T21:05:44 GMT" duration-ms="35864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@14fa86ae]" started-at="2024-03-25T21:05:45 GMT" name="dashboardTest" finished-at="2024-03-25T21:06:07 GMT" depends-on-methods="com.kardockdock.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="22418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@14fa86ae]" started-at="2024-03-25T21:06:07 GMT" name="logoutTest" finished-at="2024-03-25T21:06:19 GMT" depends-on-methods="com.kardockdock.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="12424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.kardockdock.tests.vendorportal.VendorPortalTest@14fa86ae]" started-at="2024-03-25T21:06:19 GMT" name="quitDriver" finished-at="2024-03-25T21:06:37 GMT" duration-ms="17331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.kardockdock.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-mike -->
+  </suite> <!-- vendor-portal -->
+</testng-results>
